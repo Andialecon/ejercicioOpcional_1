@@ -1,0 +1,14 @@
+{
+  "name": "primera-entrega",
+  "version": "1.0.1",
+  "description": "Primer taller del curso de node.js, fundamentos basicos y git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrés Alemán andresalemanc@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^16.2.0"
+  }
+}

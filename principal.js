@@ -19,17 +19,7 @@ const argv = require ('yargs')
             .command ('inscribir','Inscribirse a un curso', opciones)
             .argv
 const fs = require ("fs");
-const {cursos} = require ("./cursos");
-
-// FUNCION PARA MOSTRAR LOS CURSOS DISPONIBLES 
-var i = 0;
-let listarCursos = () => {
-    console.log(`Curso de ${cursos[i].nombre} (ID:${cursos[i].id}), este tiene una duración de ${cursos[i].duracion} horas y un costo de $ ${cursos[i].costo}`);  
-    if(i===2){
-        clearInterval(intervalo);
-    }
-    i=i+1;
-}; 
+const {cursos,listarCursos} = require ("./cursos");
 
 // FUNCION PARA INSCRIBIRSE A UN CURSO
 let inscribirse = ()=> {
@@ -50,14 +40,15 @@ let inscribirse = ()=> {
         })
     }else{
         console.log("Ha ingresado un ID que no corresponde a ningún curso");
-        var intervalo =setInterval(listarCursos,2000);//llama la función listarCursos()
+        // var intervalo =setInterval(listarCursos,2000);//llama la función listarCursos()
+        listarCursos();
     }
     
 }
 
-
 if(argv.id===undefined){
-    var intervalo =setInterval(listarCursos,2000);
+    // var intervalo =setInterval(listarCursos,2000);
+    listarCursos();
 }else{
     inscribirse();
 }

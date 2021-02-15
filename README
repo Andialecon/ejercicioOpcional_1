@@ -1,8 +1,16 @@
 Este es nuestro primer proyecto en el curso de nodejs
 
+<<<<<<< HEAD
 https://github.com/Andialecon/fundamentosDeNodejs/blob/main/README
 
 para ejecutar el programa ingresar los mismos comando del ejemplo del profesor:
  node principal 
  node principal inscribir
   ejemplo: node principal inscribir -i=2 -n=andres -x=12345632
+=======
+para ejecutar el programa ingresar los mismos comando del ejemplo del profesor:
+ node principal 
+ node principal inscribir
+  ejemplo: node principal inscribir -i=2 -n=andres -x=12345632
+ 
+>>>>>>> 385a29d5f80c78e6a3ef9401160a4d43f6265a0e

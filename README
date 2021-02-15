@@ -1,1 +1,7 @@
 Este es nuestro primer proyecto en el curso de nodejs
+
+para ejecutar el programa ingresar los mismos comando del ejemplo del profesor:
+ node principal 
+ node principal inscribir
+  ejemplo: node principal inscribir -i=2 -n=andres -x=12345632
+ 

@@ -76,25 +76,12 @@ let inscribirse = ()=> {
         se ha matriculado en el curso de ${curso.nombre} que tiene una duración de ${curso.duracion} horas
         y un costo de $${curso.costo} pesos.`;
         
-        // fs.writeFile('matricula.txt', texto, (err)=>{
-        //     if(err) throw (err);
-        //     console.log("Usted ha sido matriculado")
-        // })
         alert(texto);
         document.getElementById("estado").innerHTML="<h2>Usted ha sido matriculado satisfactoriamente</h2>";
     }else{
         alert("Ha ingresado un ID que no corresponde a ningún curso");
-        // var intervalo =setInterval(listarCursos,2000);//llama la función listarCursos()
         listarCursos();
     }
     
 }
-
-// if(argv.id===undefined){
-//     // var intervalo =setInterval(listarCursos,2000);
-//     listarCursos();
-// }else{
-//     inscribirse();
-// }
-
 

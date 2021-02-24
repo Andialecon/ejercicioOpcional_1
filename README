@@ -1,9 +1,6 @@
-Este es nuestro primer proyecto en el curso de nodejs
+crear un servidor con express para mostrar los datos de la tarea anterior
 
 <<<<<<< HEAD
 https://github.com/Andialecon/ejercicioOpcional_1
 
-para ejecutar el programa ingresar los mismos comando del ejemplo del profesor:
- node principal 
- node principal inscribir
-  ejemplo: node principal inscribir -i=2 -n=andres -x=12345632
+
